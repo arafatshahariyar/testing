@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/21d18f25c2.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+        }
+        .login-continar{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .login-from{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+        }
+
+        .login-from input{
+            margin-top: 10px;
+            font-size: 30px;
+            padding: 5px 10px;
+            width: 300px;
+            background-color: bisque;
+            border: 0;
+            border-radius: 5px;
+        }
+        .login-from input[type="button"]{
+            background-color: pink;
+            border: 0; 
+            border-radius: 5px;
+            color: white;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+             <a href="">Home</a>
+            <a href="">Destination</a>
+            <a href="">Village</a>
+            <a href="">Distric</a>
+            </span>
+            <span>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            </span> 
+        </nav>
+    </header>
+  <section class="login-continar">
+    <form class="login-from">
+        <h1>Please Login</h1>
+        <input type="email" name="" id="" placeholder="Youre Email" required>
+        <input type="password" name="" id="" placeholder="Password" required>
+        <input type="button" value="Login">
+        </form>
+  </section>
+</body>
+</html>
